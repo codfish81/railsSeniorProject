@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trailer_number: 1
+  order_number: 1
+  trucking_company: MyString
+  dock_side: MyString
+  dock_number: 1
+  live_load: MyString
+
+two:
+  trailer_number: 1
+  order_number: 1
+  trucking_company: MyString
+  dock_side: MyString
+  dock_number: 1
+  live_load: MyString
