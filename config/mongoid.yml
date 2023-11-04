@@ -5,6 +5,7 @@ production:
       uri: mongodb+srv://codfish81:LynnAdeliaJohn828@cluster0.mnhwwso.mongodb.net/Admiral?retryWrites=true&w=majority
       #uri: mongodb://localhost:27017
       options:
+        user: codfish81
         skip_version_check: true
         safe: true
 development:
