@@ -87,7 +87,7 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
 
-  config.action_mailer.default_url_options = { url: 'https://admiralrails.onrender.com' }
+  #config.action_mailer.default_url_options = { url: 'https://admiralrails.onrender.com' }
 
   end
 end
