@@ -15,7 +15,8 @@ development:
     # Defines the default client. (required)
     default:
       #uri: mongodb://codfish81:LynnAdeliaJohn828@mongodb.domain.com:27017/trailers_development
-      uri: mongodb://localhost:27017
+      #uri: mongodb://localhost:27017
+      uri: mongodb://localhost:27017/admiral_rails
       #uri: mongodb+srv://codfish81:LynnAdeliaJohn828@cluster0.mnhwwso.mongodb.net/?retryWrites=true&w=majority
       #uri: mongodb+srv://codfish81:LynnAdeliaJohn828@cluster0.mnhwwso.mongodb.net/
 
