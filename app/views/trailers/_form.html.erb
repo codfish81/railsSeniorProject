@@ -21,14 +21,19 @@
     <%= form.number_field :order_number, class: "form-control", placeholder: "Order Number" %>
   </div>
 <br>
-  <div class = "field form-group">
+<div class = "field form-group">
     <% form.label :trucking_company, style: "display: block" %>
     <%= form.text_field :trucking_company, class: "form-control", placeholder: "Trucking Company" %>
   </div>
 <br>
+<div class = "field form-group">
+    <% form.label :truck_number, style: "display: block" %>
+    <%= form.text_field :truck_number, class: "form-control", placeholder: "Truck Number" %>
+  </div>
+<br>
   <div class = "field form-group">
-    <% form.label :dock_side, style: "display: block" %>
-    <%= form.text_field :dock_side, class: "form-control", placeholder: "Dock Side" %>
+    <% form.label :trailer_location, style: "display: block" %>
+    <%= form.text_field :trailer_location, class: "form-control", placeholder: "Trailer Location" %>
   </div>
 <br>
   <div class = "field form-group">
@@ -40,7 +45,17 @@
     <% form.label :live_load, style: "display: block" %>
     <%= form.text_field :live_load, class: "form-control", placeholder: "Live Load" %>
   </div>
-  <br>
+<br>
+  <div class = "field form-group">
+    <% form.label :dock_start_time, style: "display: block" %>
+    <%= form.text_field :dock_start_time, class: "form-control", placeholder: "Start Time in Dock" %>
+  </div>
+<br>
+  <div class = "field form-group">
+    <% form.label :dock_end_time, style: "display: block" %>
+    <%= form.text_field :dock_end_time, class: "form-control", placeholder: "Truck End Time in Dock" %>
+  </div>
+<br>
     <div class = "field form-group">
     <% form.label :user_id, style: "display: block" %>
     <%= form.number_field :user_id, id: :trailer_user_id, class: "form-control", value: current_user.id, type: :hidden %>

@@ -5,12 +5,18 @@
       <%= @trailer.order_number %><br>
       Trucking Company: 
       <%= @trailer.trucking_company %><br>
+      Truck Number: 
+      <%= @trailer.truck_number %><br>
       Dock Side: 
-      <%= @trailer.dock_side %><br>
+      <%= @trailer.trailer_location %><br>
       Dock Number: 
       <%= @trailer.dock_number %><br>
       Live Load: 
-      <%= @trailer.live_load %>
+      <%= @trailer.live_load %><br>
+      Start Time in Dock:
+      <%= @trailer.dock_start_time %><br>
+      End Time in Dock:
+      <%= @trailer.dock_end_time %>
       <% render @trailer %>
   </p>
   <%= link_to "Edit this trailer", edit_trailer_path(@trailer), class: "btn btn-warning" %> |

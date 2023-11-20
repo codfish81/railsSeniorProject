@@ -73,6 +73,6 @@ class TrailersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def trailer_params
-      params.require(:trailer).permit(:trailer_number, :order_number, :trucking_company, :dock_side, :dock_number, :live_load, :user_id)
+      params.require(:trailer).permit(:trailer_number, :order_number, :trucking_company, :truck_number, :trailer_location, :dock_number, :live_load, :user_id, :dock_start_time, :dock_end_time)
     end
 end
