@@ -1,24 +1,2 @@
-# README
+![image](https://github.com/codfish81/railsSeniorProject/assets/83982732/60da968e-4d03-48d6-8ade-66e54bfde099)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
